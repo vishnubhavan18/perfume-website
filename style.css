@@ -1,0 +1,86 @@
+nav {
+   background-color: black;
+   color: white;
+   padding: 30px;
+   
+}
+h1,ul,li{
+    color: white;
+    font-family: Arial, sans-serif;
+    display: inline;
+}
+li{
+    color: grey;
+    display: inline;
+}
+li:hover{
+    color: white;
+}
+ul{
+    padding-left: 60%;
+    cursor: pointer;
+}
+
+.Search{
+    background-color: white;
+    color: black;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    }
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    display: inline;
+   
+    text-align: center;
+}
+.box{
+    border: black solid 1px;
+    width: 250px;
+    border-radius: 4px;
+    border-style: solid black;
+    display : inline-block;
+    padding: 20px;
+    margin-left: 50px;
+   
+}
+
+.product{
+    text-align: center;
+    justify-content: space-around;
+    cursor: pointer;
+    padding: 20px;
+}
+.box:hover{
+    background-color: grey;
+    color: black;
+}
+.About{
+
+    text-align: center;
+    padding: 10px;
+}
+.Contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.contact-details {
+    text-align: center;
+    color: grey;
+}
+.contact-details:hover{
+    color: white;
+    cursor: pointer;
+    
+}
